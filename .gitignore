@@ -1,6 +1,41 @@
-/template/app/migrations
-/template/app/package-lock.json
+# Dependencies
+node_modules/
+.wasp/
+.waspbuild/
+.waspcache/
+
+# Environment variables
+.env
+.env.server
+.env.client
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Docker
+docker-compose.override.yml
 
 # Local Netlify folder
 .netlify
